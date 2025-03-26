@@ -1,6 +1,7 @@
 // Authentication related functions
 
 // Function to toggle between sign in and sign up forms
+const auth = firebase.auth();
 function toggleAuthForm(mode) {
     const signInForm = document.getElementById('sign-in-form');
     const signUpForm = document.getElementById('sign-up-form');
